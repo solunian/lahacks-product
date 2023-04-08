@@ -2,5 +2,5 @@
     <a href="/">Home</a>
     <a href="/chat">Chat</a>
     <a href="/search">Search</a>
-    <a href="https://github.com/solunian/medtalk" target="_blank">GitH=ub</a>
+    <a href="https://github.com/solunian/medtalk" target="_blank">GitHub</a>
 </nav>
