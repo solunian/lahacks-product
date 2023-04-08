@@ -1,5 +1,3 @@
-<center class="flex flex-row justify-center">
-    <div>
-        <slot />
-    </div>
-</center>
+<div class="flex flex-row justify-center">
+    <slot />
+</div>
