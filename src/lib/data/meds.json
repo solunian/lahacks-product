@@ -1,0 +1,14 @@
+{
+    "ibuprofen":{
+        "other_names":"Advil , Motrin",
+        "use":"Ibuprofen is used to relieve pain from various conditions such as headache, dental pain, menstrual cramps, muscle aches, or arthritis. It is also used to reduce fever and to relieve minor aches and pain due to the common cold or flu.",
+        "side_effects":"Upset stomach, nausea, vomiting, headache, diarrhea, constipation, dizziness, or drowsiness",
+        "warnings":"Kidney problems can sometimes occur with the use of NSAID medications, including ibuprofen. This drug may make you dizzy or drowsy. This medicine may cause stomach bleeding."
+    },
+    "adderall":{
+        "other_names":"DEXTROAMPHETAMINE-AMPHETAMINE",
+        "use": "This combination medication is used to treat attention deficit hyperactivity disorder - ADHD. It works by changing the amounts of certain natural substances in the brain.",
+        "side_effects":"Loss of appetite, weight loss, dry mouth, stomach upset/pain, nausea/vomiting, dizziness, headache, diarrhea, fever, nervousness, and trouble sleeping may occur.",
+        "warnings":"This drug may make you dizzy. Children may be more sensitive to the side effects of this drug, especially weight loss. This medication may slow down a child's growth. "
+    }
+}
