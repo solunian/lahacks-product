@@ -1,12 +1,26 @@
 <script>
     import Message from "$lib/components/Message.svelte";
+    import MessageClient from "$lib/data/client.js";
 
     let userInput = "";
     let stream = [];
 
     const handleSubmit = () => {
-        console.log(userInput);
+        // console.log(userInput);
+        const client = new MessageClient('https://conversation-api-test.yarn.network/conversation', userInput, []);
         stream = [...stream, userInput];
+        client.connect();
+        client.on('newtext', (text) => console.log('Received new text:', text));
+        client.on('finaltext', (text, links) => {
+            console.log('Received final:', text, links)
+            stream = [...stream, text]; // append links[]
+        });
+        client.on('error', (event) => console.log('Error:', event));
+        client.on('close', () => console.log('Connection closed'));
+
+        // Here you might want to add an error when it times out
+        setTimeout(() => client.close(), 10000); // close the connection after 10 seconds
+        
         userInput = "";
     };
 
