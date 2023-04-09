@@ -1,8 +1,10 @@
 <script>
     import NewPageSvg from "./NewPageSvg.svelte";
+    import Links from "./Links.svelte";
 
     export let text;
     export let count;
+    export let urls;
     export let oldSearchText;
 
     const isYou = count % 2 == 0;
@@ -21,6 +23,9 @@
             <p>
                 {text}
             </p>
+
+            <Links urls={urls}/>
+
             <a href={`https://www.google.com/search?q=${oldSearchText}`} target="_blank">
                 <button class="text-sm border border-gray-400 py-1 px-3 rounded hover:bg-blue-400 duration-100">
                 ask google! <NewPageSvg/>

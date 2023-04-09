@@ -7,9 +7,17 @@
     let stream = [];
 
     const handleSubmit = () => {
+        let history = [];
+        for (let i = 0; i < stream.length / 2; i++) {
+            let obj = {
+                "human": stream[i * 2],
+                "assistant": stream[i * 2 + 1]
+            }
+            history.push(obj);
+        }
         
         // console.log(userInput);
-        const client = new MessageClient('https://conversation-api-test.yarn.network/conversation', userInput, []);
+        const client = new MessageClient('https://conversation-api-test.yarn.network/conversation', userInput, history);
         stream = [...stream, userInput, ""];
         client.connect();
         client.on('newtext', (text) => {
