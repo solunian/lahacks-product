@@ -1,5 +1,6 @@
 <script>
     import Example from "./Example.svelte";
+    import starSVG from "$lib/images/star.svg";
 
     const examples = [
         "What medication should I take when I have a high fever and a sore throat?",
@@ -8,9 +9,15 @@
     ]
 </script>
 
-<div class="flex flex-row justify-center mt-16">
+<div class="flex flex-row justify-center mt-12">
     <div class="flex flex-col justify-center gap-4">
-        <h1 class="text-2xl mb-1 text-center">Examples</h1>
+        <div class="flex flex-row justify-center">
+            <img src={starSVG} width={24} height={24} alt=""/>
+        </div>
+
+        <h1 class="text-2xl text-center">
+            Examples
+        </h1>
 
         {#each examples as example}
             <Example prompt={example}/>

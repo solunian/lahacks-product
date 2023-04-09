@@ -3,4 +3,4 @@
 
 </script>
 
-<img src={newPageSVG} alt="" height={16} width={16} class="ml-1"/>
+<img src={newPageSVG} alt="" height={16} width={16} class="ml-1 inline"/>

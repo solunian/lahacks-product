@@ -1,4 +1,6 @@
 <script>
+    import NewPageSvg from "./NewPageSvg.svelte";
+
     export let text;
     export let count;
     export let oldSearchText;
@@ -20,8 +22,8 @@
                 {text}
             </p>
             <a href={`https://www.google.com/search?q=${oldSearchText}`} target="_blank">
-                <button class="text-sm border border-gray-400 py-1 px-3 rounded hover:bg-blue-400 hover:text-white duration-100">
-                ask google!
+                <button class="text-sm border border-gray-400 py-1 px-3 rounded hover:bg-blue-400 duration-100">
+                ask google! <NewPageSvg/>
             </button></a>
         </div>
     {/if}
