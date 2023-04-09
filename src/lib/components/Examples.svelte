@@ -1,4 +1,5 @@
 <script>
+    export let onPick;
     import Example from "./Example.svelte";
     import starSVG from "$lib/images/star.svg";
 
@@ -20,7 +21,9 @@
         </h1>
 
         {#each examples as example}
-            <Example prompt={example}/>
+            <Example prompt={example} onPick={() => {
+                onPick(example)
+            }}/>
         {/each}
     </div>
 </div>

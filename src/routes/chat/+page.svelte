@@ -6,27 +6,32 @@
     let userInput = "";
     let stream = [];
 
+    let messages = {};
+
     const handleSubmit = () => {
         let history = [];
         for (let i = 0; i < stream.length / 2; i++) {
             let obj = {
-                "human": stream[i * 2],
-                "assistant": stream[i * 2 + 1]
+                "human": stream[i * 2].trim(),
+                "assistant": stream[i * 2 + 1].trim()
             }
             history.push(obj);
         }
         
         // console.log(userInput);
-        const client = new MessageClient('https://conversation-api-test.yarn.network/conversation', userInput, history);
+        const client = new MessageClient('https://conversation-api-test.yarn.network/conversation', userInput.trim(), history);
         stream = [...stream, userInput, ""];
         client.connect();
         client.on('newtext', (text) => {
             console.log('Received new text:', text);
-            stream[stream.length - 1] += " " + text;
+            stream[stream.length - 1] += text;
         });
         client.on('finaltext', (text, links) => {
             console.log('Received final:', text, links)
             stream = [...stream.slice(0, stream.length - 1), text]; // append links[]
+            messages[stream.length-1] = {
+                text, links
+            }
         });
         client.on('error', (event) => console.log('Error:', event));
         client.on('close', () => console.log('Connection closed'));
@@ -56,10 +61,13 @@
     {/if}
     <div class="w-full flex flex-col gap-5 mb-12">
         {#if stream.length === 0}
-            <Examples/>
+            <Examples onPick={(prompt) => {
+                userInput = prompt
+                handleSubmit()
+            }}/>
         {/if}
         {#each stream as message, i}
-            <Message text={message} count={i} oldSearchText={stream[i - 1]}/>
+            <Message text={message} message={messages[i] ?? {}} count={i}/>
         {/each}
     </div>
 </div>
@@ -68,6 +76,15 @@
     on:submit|preventDefault={handleSubmit}
     class="fixed bottom-8 flex flex-row gap-2 justify-center"
 >
+    <button
+        id="submitBtn"
+        class="border border-teal-900 rounded px-5 py-2 bg-white text-teal-800"
+        on:click={() => {
+            location.reload()
+        }}
+    >
+    ♻️
+    </button>
     <textarea
         rows="1"
         placeholder="Send a message..."
