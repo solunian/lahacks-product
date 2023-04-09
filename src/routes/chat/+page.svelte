@@ -80,7 +80,7 @@
       />
     {/if}
     {#each stream as message, i}
-      <Message text={message} message={messages[i] ?? {}} count={i} />
+      <Message text={message} message={messages[i] ?? {}} count={i} oldSearchText={stream[i - 1]} />
     {/each}
   </div>
 </div>

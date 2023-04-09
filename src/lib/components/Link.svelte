@@ -37,7 +37,7 @@
 
       <a href={link["url"]} target="_blank">
         <button
-          class="text-sm border border-gray-400 py-1 px-3 rounded hover:bg-green-400 duration-100"
+          class="text-sm border border-gray-400 py-1 px-3 rounded hover:bg-green-300 duration-100"
         >
           Learn more
           <NewPageSvg />

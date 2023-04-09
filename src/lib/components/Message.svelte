@@ -5,6 +5,7 @@
     export let text;
     export let message;
     export let count;
+    export let oldSearchText;
 
     const isYou = count % 2 == 0;
     let color = (isYou) ? "bg-teal-50" : "bg-gray-200";
@@ -36,10 +37,10 @@
                 <Links links={message["links"]}/>
             {/if}
 
-            <!-- <a href={`https://www.google.com/search?q=${oldSearchText}`} target="_blank">
-                <button class="text-sm border border-gray-400 py-1 px-3 rounded hover:bg-blue-400 duration-100">
+            <a href={`https://www.google.com/search?q=${oldSearchText}`} target="_blank">
+                <button class="text-md border border-gray-400 py-1 px-3 rounded hover:bg-blue-300 duration-100">
                 Ask google! <NewPageSvg/>
-            </button></a> -->
+            </button></a>
         </div>
     {/if}
     
