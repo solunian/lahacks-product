@@ -77,7 +77,6 @@
     class="fixed bottom-8 flex flex-row gap-2 justify-center"
 >
     <button
-        id="submitBtn"
         class="border border-teal-900 rounded px-5 py-2 bg-white text-teal-800"
         on:click={() => {
             location.reload()
