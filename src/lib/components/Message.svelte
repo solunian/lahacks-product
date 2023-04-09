@@ -1,21 +1,28 @@
 <script>
     export let text;
     export let count;
+    export let oldSearchText;
 
     const isYou = count % 2 == 0;
-    let color = (isYou) ? "bg-white" : "bg-gray-300";
+    let color = (isYou) ? "bg-teal-50" : "bg-gray-200";
 </script>
 
 <div id="stream" class={`${color} h-auto flex-grow p-5 rounded break-words border-y`}>
     {#if isYou}
-        <div class="text-right">
-            <h6 class="text-sm italic">You</h6>
+        <div class="text-right flex flex-col gap-2">
+            <h6 class="italic text-gray-500">You</h6>
             {text}
         </div>
     {:else}
-        <div class="text-left">
-            <h6 class="text-sm italic">Bot</h6>
-            {text}
+        <div class="text-left flex flex-col gap-3">
+            <h6 class="italic text-blue-500">Bot</h6>
+            <p>
+                {text}
+            </p>
+            <a href={`https://www.google.com/search?q=${oldSearchText}`} target="_blank">
+                <button class="text-sm border border-gray-400 py-1 px-3 rounded hover:bg-blue-400 hover:text-white duration-100">
+                ask google!
+            </button></a>
         </div>
     {/if}
     
@@ -25,6 +32,6 @@
 
 <style>
     #stream {
-        width: 40rem;
+        width: 36rem;
     }
 </style>
