@@ -39,7 +39,7 @@
 
             <a href={`https://www.google.com/search?q=${oldSearchText}`} target="_blank">
                 <button class="text-md border border-gray-400 py-1 px-3 rounded hover:bg-blue-300 duration-100">
-                Ask google! <NewPageSvg/>
+                Check on Google <NewPageSvg/>
             </button></a>
         </div>
     {/if}
