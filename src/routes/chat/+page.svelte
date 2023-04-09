@@ -1,22 +1,34 @@
 <script>
+    import Message from "$lib/components/Message.svelte";
+
     let userInput = "";
+    let stream = [];
 
     const handleSubmit = () => {
         console.log(userInput);
+        stream = [...stream, userInput];
+        userInput = "";
     };
 
     const keyHandler = (e) => {
         if (e.key === "Enter") {
             e.preventDefault();
             document.getElementById("submitBtn").click();
-            userInput = "";
+            document.getElementById("submitBtn").scrollIntoView(true);
         }
     };
 </script>
 
 <div class="flex flex-col px-24 py-12">
-    <h1 class="text-5xl">MedTalk Chat</h1>
-    <div class="w-full">
+    <h1 class="text-5xl text-center">MedTalk Chat</h1>
+    <div class="w-full flex flex-col gap-5 mt-4">
+
+        {#each stream as message, i }
+            <Message text={message} count={i}/>
+        {/each}
+
+
+        
     </div>
 </div>
 
