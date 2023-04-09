@@ -14,21 +14,20 @@
         if (e.key === "Enter") {
             e.preventDefault();
             document.getElementById("submitBtn").click();
-            document.getElementById("submitBtn").scrollIntoView(true);
+            window.scrollTo({
+                top: document.body.clientHeight,
+                behavior: "smooth",
+            });
         }
     };
 </script>
 
 <div class="flex flex-col px-24 py-12">
     <h1 class="text-5xl text-center">MedTalk Chat</h1>
-    <div class="w-full flex flex-col gap-5 mt-4">
-
-        {#each stream as message, i }
-            <Message text={message} count={i}/>
+    <div class="w-full flex flex-col gap-5 mt-4 mb-12">
+        {#each stream as message, i}
+            <Message text={message} count={i} />
         {/each}
-
-
-        
     </div>
 </div>
 

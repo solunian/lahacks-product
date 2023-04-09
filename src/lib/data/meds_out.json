@@ -1,0 +1,205 @@
+[
+    {
+        "name": "ibuprofen",
+        "other_names": "Advil , Motrin",
+        "use": "Ibuprofen is used to relieve pain from various conditions such as headache,",
+        "side_effects": "Upset stomach, nausea, vomiting, headache, diarrhea, constipation, dizzines",
+        "warnings": "Kidney problems can sometimes occur with the use of NSAID medications, incl"
+    },
+    {
+        "name": "adderall",
+        "other_names": "DEXTROAMPHETAMINE-AMPHETAMINE",
+        "use": "This combination medication is used to treat attention deficit hyperactivit",
+        "side_effects": "Loss of appetite, weight loss, dry mouth, stomach upset/pain, nausea/vomiti",
+        "warnings": "This drug may make you dizzy. Children may be more sensitive to the side ef"
+    },
+    {
+        "name": "benadryl",
+        "other_names": "DIPHENHYDRAMINE HCL",
+        "use": "Diphenhydramine is an antihistamine used to relieve symptoms of allergy, ha",
+        "side_effects": "Drowsiness, dizziness, constipation, stomach upset, blurred vision, or dry ",
+        "warnings": "This drug may make you dizzy or drowsy or blur your vision. "
+    },
+    {
+        "name": "prozac",
+        "other_names": "FLUOXETINE",
+        "use": "Fluoxetine is used to treat depression, panic attacks, obsessive compulsive",
+        "side_effects": "Nausea, drowsiness, dizziness, anxiety, trouble sleeping, loss of appetite,",
+        "warnings": "This drug may make you dizzy or drowsy. The liquid form of this medication "
+    },
+    {
+        "name": "acetaminophen",
+        "other_names": "PANADOL , TYLENOL",
+        "use": "This drug is used to treat mild to moderate pain (from headaches, menstrual",
+        "side_effects": "This drug usually has no side effects. A very serious allergic reaction to ",
+        "warnings": "Acetaminophen passes into breast milk. Consult your doctor before breast-fe"
+    },
+    {
+        "name": "loratadine",
+        "other_names": "Claritin",
+        "use": "This medication is an antihistamine that treats symptoms such as itching, r",
+        "side_effects": "This drug usually has no side effects. A very serious allergic reaction to ",
+        "warnings": "If you have hives and your doctor has prescribed loratadine, or if you are "
+    },
+    {
+        "name": "fexofenadine",
+        "other_names": "ALLEGRA",
+        "use": "Fexofenadine is an antihistamine used to relieve allergy symptoms such as w",
+        "side_effects": "Cough, fever, or stomach upset may occur. If any of these effects last or g",
+        "warnings": ""
+    },
+    {
+        "name": "cetirizine",
+        "other_names": "ZYRTEC",
+        "use": "Cetirizine is an antihistamine used to relieve allergy symptoms such as wat",
+        "side_effects": "Drowsiness, tiredness, and dry mouth may occur. Stomach pain may also occur",
+        "warnings": "If you are using this medication to treat hives, tell your doctor right awa"
+    },
+    {
+        "name": "flonase",
+        "other_names": "FLUTICASONE PROPIONATE",
+        "use": "Fluticasone is used to relieve seasonal and year-round allergic and non-all",
+        "side_effects": "Nasal dryness/irritation, nausea, or vomiting may occur. Tell your doctor r",
+        "warnings": "Before using this medication, tell your doctor or pharmacist your medical h"
+    },
+    {
+        "name": "abilify",
+        "other_names": "ARIPIPRAZOLE",
+        "use": "Aripiprazole is used to treat certain mental/mood disorders (such as bipola",
+        "side_effects": "Dizziness, lightheadedness, drowsiness, nausea, vomiting, tiredness, excess",
+        "warnings": "This drug may make you dizzy or drowsy or blur your vision. This medication"
+    },
+    {
+        "name": "actos",
+        "other_names": "PIOGLITAZONE",
+        "use": "Pioglitazone is a diabetes drug (thiazolidinedione-type, also called glitaz",
+        "side_effects": "Sore throat, muscle pain, weight gain, or tooth problems may occur. Tell yo",
+        "warnings": "Before using this medication, tell your doctor or pharmacist your medical h"
+    },
+    {
+        "name": "acyclovir",
+        "other_names": "ZOVIRAX",
+        "use": "Acyclovir is used to treat infections caused by certain types of viruses. I",
+        "side_effects": "Nausea, diarrhea, headache, or vomiting may occur. Tell your doctor right a",
+        "warnings": ""
+    },
+    {
+        "name": "allopurinol",
+        "other_names": "ZYLOPRIM",
+        "use": "Allopurinol is used to treat gout and certain types of kidney stones. It is",
+        "side_effects": "Stomach upset, nausea, diarrhea, or drowsiness may occur. Tell your doctor ",
+        "warnings": "Before using this medication, tell your doctor or pharmacist your medical h"
+    },
+    {
+        "name": "ambien",
+        "other_names": "ZOLPIDEM",
+        "use": "Zolpidem is used for a short time to treat a certain sleep problem (insomni",
+        "side_effects": "Dizziness may occur. This medication may make you sleepy during the day. ",
+        "warnings": "Before using this medication, tell your doctor or pharmacist your medical h"
+    },
+    {
+        "name": "amitriptyline",
+        "other_names": "Elavil",
+        "use": "This medication is used to treat mental/mood problems such as depression.",
+        "side_effects": "Drowsiness, dizziness, dry mouth, blurred vision, constipation, weight gain",
+        "warnings": "Before using this medication, tell your doctor or pharmacist your medical h"
+    },
+    {
+        "name": "amoxicillin",
+        "other_names": "Moxatag",
+        "use": "Amoxicillin is used to treat a wide variety of bacterial infections. This m",
+        "side_effects": "Nausea, vomiting, or diarrhea may occur. Use of this medication for prolong",
+        "warnings": "Before using this medication, tell your doctor or pharmacist your medical h"
+    },
+    {
+        "name": "atenolol",
+        "other_names": "TENORMIN",
+        "use": "Atenolol is used with or without other medications to treat high blood pres",
+        "side_effects": "Dizziness, lightheadedness, tiredness, and nausea may occur. This drug may ",
+        "warnings": "Before using this medication, tell your doctor or pharmacist your medical h"
+    },
+    {
+        "name": "ativan",
+        "other_names": "LORAZEPAM",
+        "use": "This medication is used to treat anxiety. Lorazepam belongs to a class of d",
+        "side_effects": "Drowsiness, dizziness, loss of coordination, headache, nausea, blurred visi",
+        "warnings": "Before using this medication, tell your doctor or pharmacist your medical h"
+    },
+    {
+        "name": "aspirin",
+        "other_names": "",
+        "use": "Aspirin is used to reduce fever and relieve mild to moderate pain from cond",
+        "side_effects": "Upset stomach and heartburn may occur. Tell your doctor right away if you h",
+        "warnings": "If you have any of the following health problems, consult your doctor or ph"
+    },
+    {
+        "name": "azithromycin",
+        "other_names": "ZITHROMAX",
+        "use": "Azithromycin is used to treat a wide variety of bacterial infections. It is",
+        "side_effects": "Stomach upset, diarrhea/loose stools, nausea, vomiting, or abdominal pain m",
+        "warnings": "Before using this medication, tell your doctor or pharmacist your medical h"
+    },
+    {
+        "name": "baclofen",
+        "other_names": "FLEQSUVY , LIORESAL , LYVISPAH , OZOBAX",
+        "use": "Baclofen is used to treat muscle spasms caused by certain conditions (such ",
+        "side_effects": "Drowsiness, dizziness, weakness, tiredness, headache, trouble sleeping, nau",
+        "warnings": "Before using this medication, tell your doctor or pharmacist your medical h"
+    },
+    {
+        "name": "bactrim",
+        "other_names": "SULFAMETHOXAZOLE-TRIMETHOPRIM",
+        "use": "This medication is a combination of two antibiotics: sulfamethoxazole and t",
+        "side_effects": "Nausea, vomiting, diarrhea, and loss of appetite may occur. Tell your docto",
+        "warnings": "Before using this medication, tell your doctor or pharmacist your medical h"
+    },
+    {
+        "name": "benzonatate",
+        "other_names": "TESSALON PERLE , ZONATUSS",
+        "use": "This medication is used to treat coughs caused by the common cold and other",
+        "side_effects": "Drowsiness, dizziness, headache, nausea, stomach upset, constipation, and s",
+        "warnings": "This drug may make you dizzy or drowsy. During pregnancy, this medication s"
+    },
+    {
+        "name": "bupropion",
+        "other_names": "WELLBUTRIN XL , BUPROPION HCL",
+        "use": "This medication is used to treat depression. It may also be used to prevent",
+        "side_effects": "Dry mouth, sore throat, dizziness, nausea, vomiting, ringing in the ears, h",
+        "warnings": "Before using this medication, tell your doctor or pharmacist your medical h"
+    },
+    {
+        "name": "buspirone",
+        "other_names": "BUSPAR",
+        "use": "This medication is used to treat anxiety. It may help you think more clearl",
+        "side_effects": "Dizziness, drowsiness, headache, nausea, nervousness, lightheadedness, rest",
+        "warnings": "This medication should not be used if you have certain medical conditions. "
+    },
+    {
+        "name": "bystolic",
+        "other_names": "NEBIVOLOL",
+        "use": "Nebivolol is used to treat high blood pressure. Lowering high blood pressur",
+        "side_effects": "Headache, dizziness, lightheadedness, tiredness, nausea, slow heartbeat, or",
+        "warnings": "Before using this medication, tell your doctor or pharmacist your medical h"
+    },
+    {
+        "name": "celebrex",
+        "other_names": "CELECOXIB",
+        "use": "This medication is a nonsteroidal anti-inflammatory drug (NSAID), specifica",
+        "side_effects": "Stomach upset or gas may occur. This medication may raise your blood pressu",
+        "warnings": "Kidney problems can sometimes occur with the use of NSAID medications, incl"
+    },
+    {
+        "name": "celexa",
+        "other_names": "CITALOPRAM",
+        "use": "Citalopram is used to treat depression. It may improve your energy level an",
+        "side_effects": "Nausea, dry mouth, loss of appetite, tiredness, drowsiness, sweating, blurr",
+        "warnings": "Citalopram may cause a condition that affects the heart rhythm (QT prolonga"
+    },
+    {
+        "name": "clonazepam",
+        "other_names": "KLONOPIN",
+        "use": "Clonazepam is used to prevent and control seizures. This medication is know",
+        "side_effects": "Drowsiness, dizziness, tiredness, loss of coordination, or increased saliva",
+        "warnings": ""
+    }
+]
